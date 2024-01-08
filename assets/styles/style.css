@@ -1,0 +1,52 @@
+body {
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1, h2 {
+    color: mediumorchid;
+    align-self: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+.result {
+    font-size: 48px;
+}
+
+.visible {
+    color: red;
+    align-self: center;
+}
+
+.invisible {
+    display: none;
+}
+
+.container__input {
+    align-self: center;
+}
+
+.button {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: mediumorchid;
+    color: lavender;
+    font-size: 20px;
+}
+
+.input {
+    color: lavender;
+    background-color: mediumorchid;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}

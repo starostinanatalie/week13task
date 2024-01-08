@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>Days to Birthday</title>
+  </head>
+  <body>
+    <h1 class="title">Дни до Дня Рождения</h1>
+    <h2>Введите, пожалуйста, дату Вашего Дня Рождения в этом году</h2>
+    <div class="container__input">
+      <input
+        class="input"
+        type="date"
+        id="inp"
+        name="date"
+        min="2024-01-01"
+        max="2024-12-31"
+      />
+      <button id="button" class="button">Посчитать</button>
+    </div>
+    <h3 id="error" class="invisible">Введите дату все же, ну пожалуйста...</h3>
+    <h2 class="result" id="result"></h2>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
